@@ -18,7 +18,7 @@ public class Account implements UserDetails {
 	private static final long serialVersionUID = -9087777297833535941L;
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long id;
+	private Integer id;
 	private String name;
 	private String username;
 	private String password;
