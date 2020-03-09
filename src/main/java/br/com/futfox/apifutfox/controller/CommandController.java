@@ -10,6 +10,6 @@ public class CommandController {
 	
 	@GetMapping
 	public String getCommand() {
-		return "alert('olá')";
+		return "console.log('olá') ";
 	}
 }
